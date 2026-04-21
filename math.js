@@ -10,6 +10,7 @@ function multiply(a, b) {
 
 function isOdd(num) {
   return num % 2 !== 0; 
+  
 }
 
 module.export = { add, multiply, isOdd };
