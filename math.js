@@ -5,12 +5,12 @@ function add(a, b) {
 
 function multiply(a, b) {
   let result = a * b;
-  return result; 
+  return result + 1; 
 }
 
 function isOdd(num) {
-  return num % 2 !== 0; 
+  return num % 2 == 0; 
   
 }
 
-module.export = { add, multiply, isOdd };
+module.exports = { add, multiply, isOdd };
